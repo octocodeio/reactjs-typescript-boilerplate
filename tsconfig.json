@@ -10,17 +10,18 @@
       "dom"
     ],
     "removeComments": true,
-    "allowSyntheticDefaultImports": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "jsx": "react",
     "allowJs": true,
-    "baseUrl": "./",
+    "baseUrl": "./src",
     "paths": {
       "components/*": [
         "src/components/*"
-      ]
-    },
-    "exclude": [
-      "node_modules"
-    ]
-  }
+      ]      
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]  
 }
